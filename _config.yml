@@ -1,0 +1,21 @@
+# Site settings
+title: A Hopeful Resource for the Disenfranchised and Supposedly Inept.
+header-img: img/home-bg.png
+email: bcecil88@gmail.com
+copyright_name: bcecil88
+description: > # this means to ignore newlines until "baseurl:"
+  (For the Disabled, Autistic, Misfits and Former Miscreants)
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  bcecil88
+learn_profile: bcecil88
+email_username: bcecil88@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
